@@ -2,11 +2,11 @@
   margin: 0;
 }
 body {
-  background: linear-gradient(to right, rgb(0, 46, 63), rgb(0, 157, 219));
+  background: linear-gradient(to right, rgb(155, 0, 108), rgb(0, 21, 139));
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 .clock {
   background: rgba(255, 255, 255, 0.1);
@@ -77,7 +77,6 @@ body {
   position: absolute;
   bottom: 50%;
   right: 50%;
-  transform: translateX(50%);
   transform-origin: bottom;
 }
 .seconds {
